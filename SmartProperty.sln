@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{A2D60000-E0A0-43F8-BDCC-01CAE2D0EDAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E6C6F946-BF85-45DF-AF57-4A3B4BE73339}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartProperty", "Sources\SmartProperty\SmartProperty.csproj", "{4A87AD52-BC7D-4486-9E76-6F3A4693EFE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartProperty.Tests", "Tests\SmartProperty.Tests\SmartProperty.Tests.csproj", "{9087EEA8-CBFE-4B97-BE31-85923A42C893}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3362B92-CAF6-406E-8F73-EA6F7AE34DEE}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A87AD52-BC7D-4486-9E76-6F3A4693EFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A87AD52-BC7D-4486-9E76-6F3A4693EFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A87AD52-BC7D-4486-9E76-6F3A4693EFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A87AD52-BC7D-4486-9E76-6F3A4693EFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9087EEA8-CBFE-4B97-BE31-85923A42C893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9087EEA8-CBFE-4B97-BE31-85923A42C893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9087EEA8-CBFE-4B97-BE31-85923A42C893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9087EEA8-CBFE-4B97-BE31-85923A42C893}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A87AD52-BC7D-4486-9E76-6F3A4693EFE3} = {A2D60000-E0A0-43F8-BDCC-01CAE2D0EDAC}
+		{9087EEA8-CBFE-4B97-BE31-85923A42C893} = {E6C6F946-BF85-45DF-AF57-4A3B4BE73339}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBC777B9-6AFC-4BB7-8513-8B2C2D2B5862}
+	EndGlobalSection
+EndGlobal
